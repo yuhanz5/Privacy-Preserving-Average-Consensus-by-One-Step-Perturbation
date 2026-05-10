@@ -21,7 +21,7 @@ Link:https://ieeexplore.ieee.org/abstract/document/11354898
 - 算法运行轨迹对比（fig.1），代码文件对应`comparison/algo_*.m`
 - 总误差（total error）对比（fig.2），代码文件对应`comparison/totalerror.m`
 - 运行效率（runtime）对比（fig.3），代码文件对应`comparison/timetest.m`
-- 隐私性能对比（fig.4），代码文件对应`comparison/algo_our.m`
+- 隐私性能验证（fig.4），代码文件对应`comparison/algo_our.m`
 
 ### `multi-dimensional`
 
@@ -29,7 +29,7 @@ Link:https://ieeexplore.ieee.org/abstract/document/11354898
 
 该部分主要包括：
 
-- 总误差（total error）对比（fig.5.a），代码文件对应`multi-dimensional/totalerror.m`
+- 总误差（total error）对比（fig.5.a），代码文件对应`multi-dimensional/comp_total.m`
 - 运行效率（runtime）对比（fig.5.b），代码文件对应`multi-dimensional/timetest2.m`
 
 
@@ -39,9 +39,10 @@ Link:https://ieeexplore.ieee.org/abstract/document/11354898
 
 ```matlab
 cd comparison
+cd multi-dimensional
 ```
 
-### Reproduce Fig.1: Algorithm Trajectory Comparison
+### Fig.1: Algorithm Trajectory Comparison
 
 运行不同算法的一致性状态轨迹对比实验：
 
@@ -53,41 +54,52 @@ algo_*.m
 
 ---
 
-### Reproduce Fig.2: Total Error Comparison
+### Fig.2: Total Error Comparison
 
 运行总误差对比实验：
 
 ```matlab
-totalerror
+totalerror.m
 ```
 
 该实验对应论文中的 Fig.2，用于比较不同算法在一致性过程中的 total error 变化情况。
 
 ---
 
-### Reproduce Fig.3: Runtime Comparison
+### Fig.3: Runtime Comparison
 
 运行算法运行效率测试：
 
 ```matlab
-timetest
+timetest.m
 ```
 
 该实验对应论文中的 Fig.3，用于比较不同算法的 runtime 与 computational efficiency。
 
 ---
 
-### Reproduce Fig.4: Privacy Performance Comparison
+### Fig.4: Privacy Performance
 
-运行隐私性能对比实验：
+运行隐私保护性能验证实验：
 
 ```matlab
-algo_our
+algo_our.m
 ```
 
 该实验对应论文中的 Fig.4，用于展示所提算法在隐私保护性能方面的实验结果。
 
-## Requirements
+
+### Fig.5 Multi-Dimensional Scenarios Comparison
+
+运行多维状态下总误差和算法运行效率对比实验：
+
+```matlab
+comp_total.m
+timetest2.m
+```
+
+
+## 依赖 Requirements
 
 - MATLAB R2021a or later
 
