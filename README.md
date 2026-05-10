@@ -87,6 +87,7 @@ algo_our.m
 
 该实验对应论文中的 Fig.4，用于展示所提算法在隐私保护性能方面的实验结果。
 
+---
 
 ### Fig.5 Multi-Dimensional Scenarios Comparison
 
@@ -97,6 +98,7 @@ comp_total.m
 timetest2.m
 ```
 
+---
 
 ## 依赖 Requirements
 
