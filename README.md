@@ -2,7 +2,8 @@
 
 本项目是论文《Privacy-Preserving Average Consensus by One-Step Perturbation》的实验代码，提供了论文中提出的一步扰动多智能体系统平均一致性算法的MATLAB仿真代码。
 代码结构按照论文中的不同实验内容进行组织，可用于复现论文中的主要实验结果与性能对比分析。
-链接：https://ieeexplore.ieee.org/abstract/document/11354898
+
+论文链接：https://ieeexplore.ieee.org/abstract/document/11354898
 
 This project contains the experimental code for the paper "Privacy-Preserving Average Consensus by One-Step Perturbation", providing MATLAB simulation implementations of the one-step perturbation based average consensus algorithm for multi-agent systems proposed in the paper.
 
