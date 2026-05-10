@@ -31,6 +31,8 @@ Link:https://ieeexplore.ieee.org/abstract/document/11354898
 - 总误差（total error）对比（fig.5.a），代码文件对应`multi-dimensional/comp_total.m`
 - 运行效率（runtime）对比（fig.5.b），代码文件对应`multi-dimensional/timetest2.m`
 
+---
+
 
 ## 使用方法 Getting Started
 
