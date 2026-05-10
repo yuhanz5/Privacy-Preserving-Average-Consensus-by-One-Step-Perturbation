@@ -112,6 +112,6 @@ timetest2.m
 
 本项目的作者及单位如下：
 
-- 项目名称（Project Name）: Privacy-Preserving Distributed Optimal Consensus of High-Order Nonlinear Multi-Agent Systems
+- 项目名称（Project Name）: Privacy-Preserving-Average-Consensus-by-One-Step-Perturbation
 - 项目作者（Author）: Hanyu Zhao, Yinyan Zhang
 - 作者单位（Affiliation）: College of Cyber Security, Jinan University
